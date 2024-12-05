@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: rgb(249, 234, 236)">
+    <div class="sticky-xl-top">
+        <nav class="navbar navbar-expand-lg bg-body-light" style="height: 70px;background-color: white;">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="margin-left: 40px;">
+                  <img src="https://www.freelogovectors.net/wp-content/uploads/2023/01/myntra-logo-freelogovectors.net_.png" alt="Bootstrap" width="60" height="35">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 " style="font-size: 11px; font-weight: 650;">
+                <li class="nav-item" style=" margin-right: 20px; margin-left: 40px;">
+                  <a class="nav-link active" aria-current="page" href="https://www.myntra.com/shop/men">MEN</a>
+                </li>
+                <li class="nav-item" style=" margin-right: 20px;">
+                  <a class="nav-link active" aria-current="page" href="https://www.myntra.com/shop/women">WOMEN</a>
+                </li>
+                <li class="nav-item" style=" margin-right: 20px;">
+                  <a class="nav-link active" aria-current="page" href="https://www.myntra.com/shop/kids">KIDS</a>
+                </li>
+                <li class="nav-item" style=" margin-right: 20px;">
+                  <a class="nav-link active" aria-current="page" href="https://www.myntra.com/shop/home-living">HOME & LIVING</a>
+                </li>
+                <li class="nav-item" style=" margin-right: 20px;">
+                  <a class="nav-link active" aria-current="page" href="https://www.myntra.com/personal-care">BEAUTY</a>
+                </li>
+                <li class="nav-item" style=" margin-right: 20px;">
+                  <a class="nav-link active" aria-current="page" href="https://www.myntra.com/studio/home">STUDIO</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search" style="width: 500px;border: none; background-color: rgb(247, 247, 247);">
+                  <a style="height: 20; width: 30; border:none; border-top-left-radius: 5PX; border-bottom-left-radius: 5PX; margin-right: 2px;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="15" viewBox="0,0,256,256"  style="margin-top: 10px;">
+                      <g fill-opacity="0.6902" fill="#1b1818" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(9.84615,9.84615)"><path d="M10,0.1875c-5.42187,0 -9.8125,4.39063 -9.8125,9.8125c0,5.42188 4.39063,9.8125 9.8125,9.8125c2.28906,0 4.39453,-0.80859 6.0625,-2.125l0.875,0.875c-0.36719,0.69141 -0.23828,1.57422 0.34375,2.15625l4.59375,4.625c0.71484,0.71484 1.87891,0.71484 2.59375,0l0.875,-0.875c0.71484,-0.71484 0.71484,-1.87891 0,-2.59375l-4.625,-4.59375c-0.58594,-0.58594 -1.46484,-0.6875 -2.15625,-0.3125l-0.875,-0.875c1.32422,-1.67187 2.125,-3.79297 2.125,-6.09375c0,-5.42187 -4.39062,-9.8125 -9.8125,-9.8125zM10,2c4.41797,0 8,3.58203 8,8c0,4.41797 -3.58203,8 -8,8c-4.41797,0 -8,-3.58203 -8,-8c0,-4.41797 3.58203,-8 8,-8zM4.9375,7.46875c-0.51562,0.83594 -0.8125,1.82031 -0.8125,2.875c0,3.02734 2.44141,5.46875 5.46875,5.46875c1.16797,0 2.26563,-0.37891 3.15625,-1c-0.23828,0.02734 -0.50391,0.03125 -0.75,0.03125c-3.91406,0 -7.0625,-3.14844 -7.0625,-7.0625c0,-0.10547 -0.00391,-0.20703 0,-0.3125z"></path></g></g>
+                      </svg></a>
+                <input class="form-control me-2" type="search" placeholder="Search for product,brand and more" aria-label="Search" style="border-top-left-radius: 0px; border-bottom-left-radius: 0PX; background-color: rgb(247, 247, 247); border:none;">
+              </form>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 20px; font-size: 14px; font-weight: 700;">
+                  <li class="nav-item" style=" margin-right: 20px;">
+                      <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                  </li>
+                  <li class="nav-item" style=" margin-right: 20px;">
+                      <a class="nav-link active" aria-current="page" href="https://www.myntra.com/wishlist">Wishlist</a>
+                  </li>
+                  <li class="nav-item" style=" margin-right: 20px;">
+                      <a class="nav-link active" aria-current="page" href="https://www.myntra.com/checkout/cart">Bag</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div style="
+                   justify-content: center;
+                   margin-top: 30px;
+                   width: 400px;
+                   height: 750px;   
+                   margin-left: 500px;
+                   background-color: white;">
+        <img src="./login.PNG" alt="" style="width: 400px; height: 180px;">
+
+        <h6 style="margin-top: 30px; margin-left: 20px;">Login or Signup</h6>
+
+        <div class="input-group mb-3" style=" margin-left: 20px; margin-top: 20px;width: 350px; height: 10px;">
+            <span class="input-group-text">+91</span>
+            <div class="form-floating">
+              <input type="number" class="form-control" id="floatingInputGroup1" placeholder="Mobile Number">
+              <label for="floatingInputGroup1">Mobile Number</label>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem;
+               --bs-btn-padding-x: .5rem;
+                --bs-btn-font-size: .75rem;
+                 margin-top: 60px;
+                  width: 350px;
+                  height: 30px;
+                  margin-left: 20px;
+                  color: white;
+                  background-color: rgb(255, 80, 109);
+                  border: none;
+                  ">
+            Continue
+        </button>
+
+        <h5 style="margin-top: 30px; margin-left: 20px;font-size: 10px;"> Don't have an account?<a href="http://127.0.0.1:5500/Sign%20up.html">Sign up</a></h5>
+
+    
+      </div>
+
+      
+    
+</body>
+</html>
